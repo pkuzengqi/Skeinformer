@@ -74,10 +74,19 @@ Note: If your data is not located in `./src/data/`, create a softlink with `ln -
 ## Reference
 
 ```bibtex
-@article{chen2021sketching,
-  title={Sketching as a Tool for Understanding and Accelerating Self-attention for Long Sequences},
-  author={Chen, Yifan and Zeng, Qi and Hakkani-Tur, Dilek and Jin, Di and Ji, Heng and Yang, Yun},
-  journal={arXiv preprint arXiv:2112.05359},
-  year={2021}
+@inproceedings{Skeinformer,
+  author    = {Yifan Chen and
+               Qi Zeng and
+               Dilek Hakkani-Tur and
+               Di Jin and
+               Heng Ji and
+               Yun Yang},
+  title     = {Sketching as a Tool for Understanding and Accelerating Self-attention for Long Sequences},
+  booktitle = {Proceedings of the 2022 Conference of the North American Chapter of
+               the Association for Computational Linguistics: Human Language Technologies,
+               {NAACL-HLT} 2022, Seattle, Washington, July 10-15, 2022},
+  publisher = {Association for Computational Linguistics},
+  year      = {2022}
 }
+
 ```
