@@ -33,12 +33,12 @@ cd data
 wget https://storage.googleapis.com/long-range-arena/lra_release.gz
 tar zxvf lra-release.gz 
 ```
-5. Create a directory `lra_processed` under `./data/`.
+5. Create a directory `lra_processed` under `./src/data/`.
 ```
 mkdir lra_processed
 cd ..
 ```
-6.The directory structure would be (assuming the root dir is `code`)
+6.The directory structure would be (assuming the root dir is `src`)
 ```
 ./data/lra-processed
 ./data/long-range-arena-main
@@ -60,7 +60,7 @@ Note: most source code comes from [LRA repo](https://github.com/google-research/
 
 # Run 
 
-Modify the configuration in `config.py` and run
+Modify the configuration in `config.py` and run under `src` folder:
 ```
 python main.py --mode train --attn skeinformer --task lra-text
 ```
