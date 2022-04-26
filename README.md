@@ -60,6 +60,13 @@ Note: most source code comes from [LRA repo](https://github.com/google-research/
 
 # Run 
 
+Create a folder to save checkpoints under `src` folder: 
+
+```
+cd src
+mkdir checkpoints
+```
+
 Modify the configuration in `config.py` and run under `src` folder:
 ```
 python main.py --mode train --attn skeinformer --task lra-text
